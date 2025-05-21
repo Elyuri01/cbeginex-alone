@@ -5,6 +5,7 @@
 int main() {
     
    long c = 0, bl = 0, tab = 0, nl = 0;
+   
 
    while ((c = getchar()) != EOF) {
    
@@ -18,8 +19,8 @@ int main() {
 
    printf(" The number of pressed blanks is %ld\n", bl);
    printf(" The number of pressed tabs is  %ld\n", tab);
-   printf(" The number of pressed newlines is %ld\n", nl);
-
+   printf("Finally The number of pressed newlines is %ld\n", nl);
+   
    return 0;
 
 }    	    
